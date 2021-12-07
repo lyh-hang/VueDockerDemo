@@ -24,4 +24,4 @@ COPY --from=build-stage /docker_demo/dist /usr/share/nginx/html
 # 指定工作目录/admin
 # WORKDIR /docker_demo
 EXPOSE 80
-CMD ["nginx", '-g', "daemon off;"]
+# CMD ["nginx", '-g', "daemon off;"]
