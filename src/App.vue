@@ -7,7 +7,7 @@
         <code v-text="'<el-button>'"></code>
         below
       </p>
-      <el-button>jenkins-demo</el-button>
+      <el-button>jenkins-test</el-button>
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
