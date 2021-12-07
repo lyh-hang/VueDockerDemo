@@ -2,6 +2,8 @@ image_version=`date +%Y%m%d%H%M`;
 echo $image_version;
 # cd docker_demo;
 git pull --rebase origin master;
+npm install;
+npm run build;
 docker stop docker_demo;
 docker rm docker_demo;
 docker build -t docker_demo:$image_version .;
