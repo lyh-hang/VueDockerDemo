@@ -40,7 +40,7 @@ export default {
     HelloWorld
   },
   async mounted() {
-    const users = await axios('http://localhost/api/find')
+    const users = await axios('/api/find')
     this.users = users
   }
 }
