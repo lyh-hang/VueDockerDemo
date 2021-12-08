@@ -40,8 +40,8 @@ export default {
     HelloWorld
   },
   async mounted() {
-    const users = await axios('/api/find')
-    this.users = users
+    const res = await axios('/api/find')
+    this.users = res.data
   }
 }
 </script>
